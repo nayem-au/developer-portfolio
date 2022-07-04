@@ -74,3 +74,9 @@ p{
 #Full-Stack-Developer{
     border-left:8px solid rgb(233, 85, 85) ;
 }
+footer p{
+    text-align: center;
+}
+#experiences{
+    text-align: right;
+}
