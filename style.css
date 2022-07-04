@@ -10,15 +10,19 @@ h1{
 }
 section{
     display: flex;
-    background-color: rgba(227, 227, 227, 0.93);
+    margin-bottom: 150px;
 }
 .half-width{
-    width: 100%;
+    width: 110%;
     padding-left: 5%;
+    padding-bottom: 1%;
 }
 .half-width img{
-    width: 99%;
+    width: 99.5%;
     padding-right: 2%;
+}
+.half-width2 img{
+    width: 100%;
 }
 p{
     font-size: 20px;
@@ -35,5 +39,12 @@ p{
 }
 .top-banner{
     background-image:url(images/top-banner.png);
-    background-repeat: no-repeat;
+    padding-bottom: 6%;
+    box-shadow: rgb(48, 106, 48);
+    background-position-x: 105px;
+}
+.middle-banner{
+    background-image: url(images/middle-banner.png);
+    padding-bottom: 5%;
+    background-position-x: 105px;
 }
